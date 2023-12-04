@@ -113,6 +113,7 @@ a {
     --grid-column-gap: 0;
     grid-column-gap: var(--grid-column-gap);
   }
+  
   [class*="gd1"] {
     --grid-row-gap: var(--default-row-gap);
     --grid-column-gap: var(--default-column-gap);
@@ -512,13 +513,6 @@ a {
     [class*="od0"] { order: 0; }
   }
 
-  * {
-    --grid-row-gap: 0;
-    grid-row-gap: var(--grid-row-gap);
-    --grid-column-gap: 0;
-    grid-column-gap: var(--grid-column-gap);
-  }
-  
   html {
     --spacing-scale: 1;
     --size0-25: calc(0.25rem * var(--spacing-scale));
